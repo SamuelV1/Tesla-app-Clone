@@ -9,6 +9,8 @@ export default function App() {
     <View style={styles.container}>
     
     <CarItem></CarItem>
+
+    <StatusBar style='auto'/>
     </View>
   );
 }
