@@ -8,7 +8,7 @@ import cars from './cars'
 const CarList = () => {
   return (
     <View>
-      <FlatList style={styles.container}
+      <FlatList 
       data={cars}
       showsVerticalScrollIndicator={false}
       renderItem={({item}) => <CarItem car={item}/>}
